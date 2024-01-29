@@ -18,6 +18,7 @@ Taking a few steps back to take more steps forward.
 ## My ENV/Editor/Resources
 
 - [NVIM](https://github.com/neovim/neovim/tree/master) 
+    -[Learn Vimscript the Hardway](https://learnvimscriptthehardway.stevelosh.com/)
 - [WSL Install Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
     - [WSL Utilities](https://github.com/wslutilities/wslu) 
 - [Unix Cheatsheet](https://files.fosswire.com/2007/08/fwunixref.pdf)

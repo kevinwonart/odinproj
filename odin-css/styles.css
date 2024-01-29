@@ -1,0 +1,59 @@
+* {
+  color: purple;
+}
+
+div {
+  color: black;
+}
+
+.alert-text {
+  color: red;
+}
+
+#title {
+  background-color: red;
+}
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+
+}
+
+.unread {
+
+}
+
+.subsection{
+  color: red;
+}
+
+.subsection.header{
+  color: blue;
+}
+
+.subsection.preview{
+  color: green;
+}
+
+.parent .contents {
+  color:red;
+}
+
+.contents {
+  color: green;
+}
+
+.parent {
+  color: yellow;
+}
+
+#devilman{
+  height: auto;
+  width: 700px;  
+  color: black;
+}
