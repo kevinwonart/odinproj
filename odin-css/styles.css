@@ -1,11 +1,49 @@
 * {
-  color: purple;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.box-one{
+  background-color: #EB5757;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border: 20px solid #9B51E0;
+  margin: 60px;
+  box-sizing: border-box;
 }
 
-div {
-  color: black;
+.box-two{
+  background-color: #EB5757;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border: 20px solid #9B51E0;
+  margin: 60px;
 }
 
+#inline {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #EEEEEE;
+}
+
+.introduction {
+  background-color: #548CA8;
+}
+
+.main-content {
+  background-color: #476072;
+}
+
+.contact-us {
+  background-color: #334257;
+}
+
+.highlight {
+  background-color: yellow;
+}
 .alert-text {
   color: red;
 }
@@ -18,14 +56,6 @@ div {
 .unread {
   color: white;
   background-color: black;
-}
-
-.read {
-
-}
-
-.unread {
-
 }
 
 .subsection{
@@ -56,4 +86,40 @@ div {
   height: auto;
   width: 700px;  
   color: black;
+}
+
+/* rule 1 */
+#subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 */
+.main #subsection {
+ color: red;
+}
+
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+  font-size: 90px;
+}
+
+.flex-container {
+  background-color: lightblue;
+  display: flex; 
+  padding: 16px;
+  margin: 8px;
+  border: 4px solid blue;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1;
 }
