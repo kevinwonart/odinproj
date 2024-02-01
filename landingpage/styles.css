@@ -1,0 +1,26 @@
+#hero,
+#footer {
+  background-color: #1F2937;
+}
+
+/* Hero Section */
+
+nav {
+  display: flex;
+  color: #F9FAF9;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2px;
+}
+
+.nav-logo {
+  font-size: 48px;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 18px;
+  list-style: none;
+  gap: 15px;
+}
+
