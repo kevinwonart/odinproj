@@ -1,20 +1,23 @@
-#hero,
-#footer {
-  background-color: #1F2937;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Hero Section */
 
 nav {
   display: flex;
-  color: #F9FAF9;
+  color: #F9FAF8;
   justify-content: space-around;
   align-items: center;
   font-size: 2px;
 }
 
 .nav-logo {
-  font-size: 48px;
+  font-size: 24px;
 }
 
 .nav-links {
@@ -24,3 +27,91 @@ nav {
   gap: 15px;
 }
 
+#hero,
+#footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  overflow: auto;
+}
+
+#hero-div {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+#hero-text-container {
+  height: 300px;
+  width: 450px;
+}
+
+#hero-main-text {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+#hero-secondary-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+#hero-image-container {
+  display: flex;
+  background-color: #75797D;
+  width: 23vw;
+  height: 23vh;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+}
+
+#hero-button {
+  margin-top: 5px;
+  background-color: #3882F6;
+  color: #F9FAF9;
+  border: none;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+}
+
+/* Random info */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+#random-image-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Quote */
+#quote {
+  background-color: #E5E7EB;
+}
+
+.image-frame {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
+}
+
+.image-unit,
+.random-description {
+  margin-top: 5px;
+  width: 120px;
+  margin-right: 35px;
+  font-size: 12px;
+  text-align: center;
+}
